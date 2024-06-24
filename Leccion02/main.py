@@ -8,7 +8,7 @@ y = "Barco"
 print(type(x))
 print(type(y))
 
-# Podemos indicar el tipo de dato en la variable, pero el contenido de la variable es dinamico, es anotación más que nada
+# Podemos indicar el tipo de dato en la variable, pero el contenido de la variable es dinamico, es una mera anotación
 num: int = 15
 fl: float = 8.9  # Valor decimal o float
 car: str = False
@@ -35,7 +35,7 @@ print("Mi lenguaje favorito es", lenguajeFav)
 num1 = "5"
 num2 = "3"
 
-# Si realizamos una suma como tal, estaríamos concatenando, pues aunque sean valores númericos
+# Si realizamos una suma como tal, estaríamos concatenando, aunque sean aparentemente valores númericos
 print("Concatenación:", num1 + num2)
 
 # Para sumar el contenido, tendriamos que convertirlo a un valor númerico ideal
